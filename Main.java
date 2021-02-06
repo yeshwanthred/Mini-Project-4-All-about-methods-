@@ -40,4 +40,11 @@ class Main {
     //To find the amount of blue cars in a parking lot
     return totalCars - redCars;
   }
+ //The 2nd method 
+  static int totalPrice(int pricePark, int reserve) {
+    //To find the total price of parking spots you chose
+    return pricePark * reserve;
+
+  }
+}
  
